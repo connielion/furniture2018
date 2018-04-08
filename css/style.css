@@ -16,6 +16,10 @@
   margin-left: 20px;
 }
 
+.glyphicon {
+  margin-right: 5px;
+}
+
 .carousel-inner {
   max-height: 600px;
 }
