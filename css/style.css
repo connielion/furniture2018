@@ -1,5 +1,41 @@
-
+@import url('https://fonts.googleapis.com/css?family=Exo:700i|Tajawal');
 
 .black-text {
   color: #000;
+}
+
+.taj-txt {
+  font-family: 'Tajawal', sans-serif;
+}
+
+.exo-txt {
+  font-family: 'Exo', sans-serif;
+}
+
+.glyphicon-chevron-right {
+  margin-left: 20px;
+}
+
+.carousel-inner {
+  height: 600px;
+}
+
+.carousel-caption {
+  position: relative;
+  top: 200px;
+  left: 300px;
+  background-color: rgba(0,0,0,.5);
+  height: 100px;
+
+}
+
+.carousel-caption h3 {
+  text-shadow: 2px 2px #000;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
