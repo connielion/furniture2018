@@ -12,6 +12,11 @@
   font-family: 'Exo', sans-serif;
 }
 
+.logo {
+background-position: top;
+}
+
+
 .glyphicon-chevron-right {
   margin-left: 20px;
 }
@@ -38,33 +43,32 @@
 }
 
 footer {
-  position: relative;
+  position: absolute;
   bottom: 0px;
   left: 0px;
   right: 0px;
-  height: 150px;
+  height: 100px;
   margin-top: 20px;
   color: #8D8D8D;
   background-color: #232020;
   font-size: 12px;
 }
-
-address {
-  margin-top: 20px;
-  margin-right: 
-}
-
 .vl {
+
   border-right: 1px solid #8D8D8D;
+  height: 50px;
 }
 
-/* SOCIAL MEDIA BUTTONS */
+.vl2 {
+
+  border-right: 1px solid #8D8D8D;
+  height: 50px;
+}
+
+/* SOCIAL MEDIA BUTTONS
 .social {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
 
-}
+}*/
 /* SM ICON HOVER ZOOM */
 .s {
   transition: transform .5s;
@@ -96,4 +100,24 @@ address {
 .fa-github {
   background: #34383B;
   color: #fff;
+}
+
+.f-links { /*footer links*/
+  text-decoration: underline;
+  position: absolute;
+  bottom: 10px;
+}
+
+.f-links ul {
+  margin-left: 50px;
+  list-style: none;
+}
+
+.f-links a {
+  color: #8D8D8D;
+}
+
+
+.footer-row {
+  margin-top: 30px;
 }
