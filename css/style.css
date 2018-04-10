@@ -12,9 +12,6 @@
   font-family: 'Exo', sans-serif;
 }
 
-.logo {
-  position:
-}
 
 
 .glyphicon-chevron-right {
@@ -124,7 +121,7 @@ footer {
 
 /* LOGIN FORM */
 
-.forgot a {
+.forgot a { /*forgot password margin*/
   margin-top: 20px;
 }
 
