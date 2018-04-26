@@ -40,11 +40,11 @@
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0px;
   left: 0px;
   right: 0px;
-  height: 100px;
+  min-height: 100px;
   margin-top: 20px;
   color: #8D8D8D;
   background-color: #232020;
@@ -137,7 +137,7 @@ footer {
 /* about page card */
 
 .about {
-  height: 1500px;
+  height: 1200px;
 }
 
 
