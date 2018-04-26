@@ -40,7 +40,7 @@
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   left: 0px;
   right: 0px;
@@ -136,6 +136,12 @@ footer {
 
 /* about page card */
 
+.about {
+  height: 1500px;
+}
+
+
+
 .fa {
   width: 20px;
 }
@@ -147,7 +153,7 @@ footer {
     text-align: center;
 }
 
-.title {
+.cardtitle {
     color: grey;
     font-size: 18px;
 }
@@ -165,7 +171,7 @@ footer {
     font-size: 18px;
 }
 
-a {
+.cardlinks {
     text-decoration: none;
     font-size: 22px;
     color: black;
