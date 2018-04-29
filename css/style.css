@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:700i|Tajawal');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:400,700|Merienda:700|Tajawal:700');
 
 .black-text {
   color: #000;
@@ -9,11 +9,38 @@
 }
 
 .exo-txt {
-  font-family: 'Exo', sans-serif;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.mer-txt {
+  font-family: 'Merienda', cursive;
+}
+
+.navbar {
+  min-height: 100px;
 }
 
 
+body {
+   position: relative;
+   margin:0px;
+   padding:0px;
+   min-height: 100%;
+}
 
+footer {
+  position: absolute;
+  bottom:0;
+  width:100%;
+  margin-top: 20px;
+  color: #8D8D8D;
+  background-color: #000;
+  font-size: 12px;
+}
+
+.home {
+  height: 1200px;
+}
 .glyphicon-chevron-right {
   margin-left: 20px;
 }
@@ -26,30 +53,8 @@
   height: 600px;
 }
 
-.carousel-caption {
-  position: relative;
-  top: 200px;
-  left: 300px;
-  background-color: rgba(0,0,0,.5);
-  height: 100px;
 
-}
 
-.carousel-caption h3 {
-  text-shadow: 2px 2px #000;
-}
-
-footer {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  min-height: 100px;
-  margin-top: 20px;
-  color: #8D8D8D;
-  background-color: #232020;
-  font-size: 12px;
-}
 .vl {
 
   border-right: 1px solid #8D8D8D;
@@ -69,10 +74,9 @@ footer {
 /* SM ICON HOVER ZOOM */
 .s {
   transition: transform .5s;
-  border: 1px solid #fff;
   border-radius: 8px;
+  margin-bottom: 5px;
   padding: 5px;
-  margin-right: 2px;
 }
 
 .s:hover {
@@ -179,4 +183,20 @@ footer {
 
 .cardbtn:hover, a:hover {
     opacity: 0.7;
+}
+
+@media screen and (max-width: 767px) {
+  .mc-field-group, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }
+  html, body {
+    min-height: 100%;
+    position: relative;
+  }
 }
